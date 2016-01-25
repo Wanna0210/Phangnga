@@ -9,17 +9,16 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Unseen-Phangnga</title>
+    <title>Modern Business - Start Bootstrap Template</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <!-- Custom CSS -->
-    <link href="css/business-casual.css" rel="stylesheet">
 
-    <!-- Fonts -->
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+    <!-- Custom CSS -->
+    <link href="css/modern-business.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -31,12 +30,9 @@
 </head>
 
 <body>
-    <div class="brand"><B><font size=90><font color="#F5F5F5">Unseen Phangnga</B></font></font></div>
-
-    <div class="address-bar"><font color="#FFFFE0"> #Land of the wild island  </font></div>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-default" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -46,125 +42,294 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-                <a class="navbar-brand" href="index.html">Unseen=Phangnga </a>
+                <a class="navbar-brand" href="index.html">Unseen Phangnga</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
-
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                  <li>
-                      <a href="index.html">Home</a>
-                  </li>
-                  <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">เกี่ยวกับพังงา<span class="caret"></span></a>
-                      <ul class="dropdown-menu">
-                        <li><a href="history.html">ประวัติความเป็นมา</a></li>
-                        <li><a href="distick.html">อำเภอ</a></li>
-                        <li><a href="slogan.html">คำขวัญประจำจังหวัด</a></li>
-                        <li><a href="culture.html">วัฒนธรรมพื้นบ้านพังงา</a></li>
-                      </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="about.html">About</a>
                     </li>
-                    <li class="dropdown">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ที่พัก&การเดินทาง<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                          <li><a href="hotel.html">โรงแรม</a></li>
-                          <li><a href="resort.html">รีสอร์ท</a></li>
-                          <li><a href="villa.html">วิลล่า</a></li>
-                          <li><a href="homestay.html">โฮมสเตย์</a></li>
-                          <li><a href="bus.html">รถโดยสาร</a></li>
-                          <li><a href="plane.html">เครื่องบิน</a></li>
-                        </ul>
-                    </li>
-        <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ร้านอาหาร<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-              <li><a href="seafood.html">ร้านอาหารซีฟู้ด</a></li>
-              <li><a href="localfood.html">ร้านอาหารพื้นเมือง</a></li>
-              <li><a href="foodandview.html">ร้านอาหารพร้อมชมทิวทัศน์</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">สถานที่&โปรแกรมท่องเที่ยว<span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                          <li><a href="island.html">เกาะ</a></li>
-                          <li><a href="oldtown.html">เมืองเก่า</a></li>
-                          <li><a href="mountain.html">ภูเขา</a></li>
-                          <li><a href="viewpoint.html">จุดชมวิว</a></li>
-                          <li><a href="waterfall.html">น้ำตก</a></li>
-                          <li><a href="elephantshow.html">ศูนย์แสดงช้าง</a></li>
-                          <li><a href="coraldiving.html">ดำน้ำดูปะการัง</a></li>
-                          <li><a href="climbing.html">ปืนเขา</a></li>
-                          <li><a href="atvcar.html">ขับรถ ATV</a></li>
-                          <li><a href="watchshow.html">ชมการแสดงช้าง</a></li>
-                          <li><a href="spa.html">นวดสปา</a></li>
-                    </ul>
-                 </li>
+                    <li>
 
-                </ul>
+                      <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">สถานที่ท่องเที่ยว <b class="caret"></b></a>
+                          <ul class="dropdown-menu">
+                              <li>
+                                  <a href="island.html">เกาะ</a>
+                              </li>
+                              <li>
+                                  <a href="viewpoint.html">จุดชมวิว</a>
+                              </li>
+                              <li>
+                                  <a href="mountain.html">ภูเขา</a>
+                              </li>
+                              <li>
+                                  <a href="oldtown.html">เมืองเก่า</a>
+                              </li>
+                              <li>
+                                  <a href="beach.html">ชายหาด</a>
+                              </li>
+                              <li>
+                                  <a href="waterfall.html">น้ำตก</a>
+                              </li>
+                              <li>
+                                  <a href="nature.html">เที่ยวเชิงนิเวศ</a>
+                              </li>
+                          </ul>
+                      </li>
+                      <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">โปรแกรมท่องเที่ยว<b class="caret"></b></a>
+                          <ul class="dropdown-menu">
+                              <li>
+                                  <a href="whitewater.html">ล่องแก่ง</a>
+                              </li>
+                              <li>
+                                  <a href="coraldiving.html">ดำน้ำดูปะการัง</a>
+                              </li>
+                              <li>
+                                  <a href="foodforanimal.html">ให้อาหารสัตว์</a>
+                              </li>
+                              <li>
+                                  <a href="atvcar.html">ขับรถ ATV</a>
+                              </li>
+                              <li>
+                                  <a href="watchshow.html">ขี่ช้างและชมการแสดงช้าง</a>
+                              </li>
+                          </ul>
+                      </li>
+
+                      <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">ที่พัก<b class="caret"></b></a>
+                          <ul class="dropdown-menu">
+                              <li>
+                                  <a href="hotel.html">โรงแรม</a>
+                              </li>
+                              <li>
+                                  <a href="resort.html">รีสอร์ท</a>
+                              </li>
+                              <li>
+                                  <a href="homestay.html">โฮมสเตย์</a>
+                              </li>
+                              <li>
+                                  <a href="villa.html">วิลล่า</a>
+                              </li>
+                          </ul>
+                      </li>
+
+
+                      <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">ร้านอาหาร<b class="caret"></b></a>
+                          <ul class="dropdown-menu">
+                              <li>
+                                  <a href="seafood.html">อาหารซีฟู้ด</a>
+                              </li>
+                              <li>
+                                  <a href="localfood.html">อาหารพื้นเมือง</a>
+                              </li>
+                              <li>
+                                  <a href="souvenirshop.html">ร้านของฝาก</a>
+                              </li>
+                              <li>
+                                  <a href="foodandview.html">ร้านอาหารพร้อมชมวิว</a>
+                              </li>
+
+                          </ul>
+                      </li>
+                  </ul>
+              </div>
+              <!-- /.navbar-collapse -->
+          </div>
+          <!-- /.container -->
+      </nav>
+
+    <!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url(http://www.alextaxiphuket.com/wp-content/uploads/2015/08/similan-islands.jpg);"></div>
+                <div class="carousel-caption ">
+                    <h2>Similan Island</h2>
+                </div>
             </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
-  <div class="container">
-
-      <div class="row">
-          <div class="box">
-              <div class="col-lg-12 text-center">
-                  <div id="carousel-example-generic" class="carousel slide">
-                        <!-- Indicators -->
-                      <ol class="carousel-indicators hidden-xs">
-                          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                          <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-                      </ol>
-
-                        <!-- Wrapper for slides -->
-                      <div class="carousel-inner">
-                            <div class="item active">
-                                <img class="img-responsive img-full" src="http://topicstock.pantip.com/blueplanet/topicstock/2011/01/E10115058/E10115058-37.jpg" width="100" height="50"alt="">
-                            </div>
-                            <div class="item">
-                                <img class="img-responsive img-full" src="http://f.ptcdn.info/882/016/000/1395219376-ARM0311res-o.jpg"width="100" height="50" alt="">
-                            </div>
-                            <div class="item">
-                                <img class="img-responsive img-full" src="http://f.ptcdn.info/294/033/000/1436594791-91-o.jpg"width="100" height="50" alt="">
-                            </div>
-                            <div class="item">
-                                <img class="img-responsive img-full" src="http://phuketletsgo.com/wp-content/uploads/2015/09/Tachai-Phuket-Lets-Go.jpg"width="100" height="50" alt="">
-                            </div>
-                        </div>
-
-                        <!-- Controls -->
-                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-                            <span class="icon-prev"></span>
-                        </a>
-                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-                            <span class="icon-next"></span>
-                        </a>
-                    </div>
-                    <h2 class="brand-before">
-                        <small>...Welcome to...</small>
-                    </h2>
-                    <h1 class="brand-name">Phangnga </h1>
-                    <hr class="tagline-divider">
-                    <h2>
-                        <small>By
-                            <strong>Unseen Phangnga</strong>
-                        </small>
-                    </h2>
+            <div class="item">
+                <div class="fill" style="background-image:url(http://excursionphuket.com/wp-content/uploads/2015/12/Tachai-Phuket-Lets-Go.jpg);"></div>
+                <div class="carousel-caption">
+                    <h2>Tachai Island</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url(https://www.thailand-divers.com/images/tours/855x311/Jamebond.jpg);"></div>
+                <div class="carousel-caption">
+                    <h2>Jame bond Island</h2>
                 </div>
             </div>
         </div>
 
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
 
+    <!-- Page Content -->
+    <div class="container">
 
+        <!-- Marketing Icons Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">
+                    PHANGNGA<small> Land of the wild island
+                </h1>
+                <h1 class="page-header">
+                  <small>สถานที่ท่องเที่ยวยอดฮิต
+                </h1>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4></i>หมู่เกาะสิมิลัน</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p><b>หมู่เกาะสิมิลัน</b>หมู่เกาะกลางทะเลอันดามันที่เป็นเลิศในด้านความงามของปะการังใต้ท้องทะเล จุดเด่นคือหาดทรายขาวละเอียดเนียนนุ่มน้ำทะเลใสน่าเล่น ใต้ทะเลมีปะการังสวยงามหลายชนิด </p>
+                        <a href="#" class="btn btn-default">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4></i>เกาะตาชัย</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p><b>เกาะตาชัย</b>อีกหนึ่งดินแดนแห่งความสุข ที่จะพาคุณไปย่ำหาดทรายขาวเม็ดละเอียด เนื้อนุ่ม ที่มีความยาวทอดตัวขนานไปกับผืนน้ำประมาณ700 เมตร และการเดินป่าเข้าไปดู ปูไก่ ปูน้ำจืดที่ชอบอาศัยอยู่ตามธารน้ำ รวมถึงเป็นจุดดำน้ำดูปะการังที่ทอดตัวยาวขนานกับชายหาด ที่สวยงามอีกแห่งหนึ่งของเมืองไทย/</p>
+                        <a href="#" class="btn btn-default">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4>อ่าวพังงา</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>บริเวณชายฝั่งทะเลอันดามันของประเทศไทยในท้องที่อำเภอเมืองพังงา อำเภอตะกั่วทุ่ง และอำเภอเกาะยาว มีพื้นที่ประมาณ250,000 ไร่ ส่วนใหญ่เป็นทะเลและเกาะน้อยใหญ่ มีเขาหินปูนลักษณะต่าง ๆ ที่มีความงามแตกต่างกันไปตามลักษณะของหิน</p>
+                        <a href="#" class="btn btn-default">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
 
-            <!-- /.container -->
+        <!-- Portfolio Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">Photo</h2>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-portfolio img-hover" src="http://hilight.kapook.com/img_cms/guide/DSC-5399s.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-portfolio img-hover" src="http://topicstock.pantip.com/camera/topicstock/2011/09/O11077584/O11077584-2.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-portfolio img-hover" src="http://www.beautifulphuket.com/images/phangnga-tour/phangnga-tachai/4.jpg" alt="">
+                </a>
+            </div>
+          </div>
+          <div class="row">
+              <div class="col-lg-12">
 
+              </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-portfolio img-hover" src="http://www.paiduaykan.com/province/south/phangnga/pic/khaokhainui6.jpg" width="700" height="470"alt="">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-portfolio img-hover" src="http://img.painaidii.com/images/20140516_3_1400210936_949763.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-portfolio img-hover" src="http://3.bp.blogspot.com/-KmnX_KEsGlk/UZZwue2V3RI/AAAAAAAAAgc/5q3lVudA59w/s1600/%25E0%25B9%2580%25E0%25B8%2581%25E0%25B8%25B2%25E0%25B8%25B0%25E0%25B8%259B%25E0%25B8%25B1%25E0%25B8%2599%25E0%25B8%25AB%25E0%25B8%25A2%25E0%25B8%25B5.jpg" alt="">
+                </a>
+            </div>
+              </div>
+
+        <!-- /.row -->
+
+        <!-- Features Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">จังหวัดพังงา</h2>
+            </div>
+            <div class="col-md-6">
+                <p>จังหวัดพังงามีเนื้อที่ประมาณ 4,171 ตารางกิโลเมตร และมีพื้นที่ที่เป็นป่าชายเลนและป่าดงดิบคิดเป็นร้อยละ 57 ของพื้นที่ทั้งหมด โดยมีพื้นที่ติดต่อเรียงตามเข็มนาฬิกาดังนี้</p>
+                <ul>
+                    <li><strong>ดิินแดนที่ได้รับสมยานามว่า "แดนดินแห่งป่าเกาะ""</strong>
+                    </li>
+                    <li>ทิศเหนือ ติดกับจังหวัดระนอง</li>
+                    <li>ทิศตะวันออก ติดกับจังหวัดสุราษฎร์ธานีและจังหวัดกระบี่</li>
+                    <li>ทิศใต้ ติดกับจังหวัดภูเก็ตและทะเลอันดามัน</li>
+                    <li>ทิศตะวันตก ติดกับมหาสมุทรอินเดีย</li>
+                    </ul>
+                <p>มีเกาะต่าง ๆ อยู่ในทะเลอันดามันมากถึง 155 เกาะ นับเป็นจังหวัดที่มีจำนวนเกาะมากที่สุดในประเทศไทย</p>
+            </div>
+            <div class="col-md-6">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1009862.4498485068!2d97.89563546228514!3d8.617568800815246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3051010eaa7a5a07%3A0xa783e242ab74c97b!2z4Lie4Lix4LiH4LiH4LiyIOC4m-C4o-C4sOC5gOC4l-C4qOC5hOC4l-C4og!5e0!3m2!1sth!2s!4v1453135604285" width="500" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+            </div>
+        </div>
+        <!-- /.row -->
+
+                <hr>
+
+                <!-- Call to Action Section -->
+                <div class="container">
+                <div class="well">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <p>PHANGNGA</p>
+                        </div>
+                        <div class="col-md-4">
+                            <a class="btn btn-lg btn-default btn-block" href="#">กลับสู่ด้านบน</a>
+                        </div>
+                    </div>
+                </div>
+                  </div>
+                <hr>
+
+        <!-- Footer -->
+        <footer>
+          <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                  
+                </div>
+            </div>
+              </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
